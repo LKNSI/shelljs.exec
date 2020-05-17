@@ -3,6 +3,9 @@
 var cp = require('child_process')
 var normaliseOptions = require('./js/normaliseOptions')
 
+
+// Now Async :) Tested 17/05/2020
+
 const shelljsExec = async (command, options) => {
 
   options = normaliseOptions(options)
