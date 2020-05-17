@@ -24,7 +24,7 @@ I run a React.js instance provisioning framework using handlebars. Sync is just 
 
 Testing:
 
-As you can expect this wildly throws your ability to get the output of the child process properly. If you're happy for fire and forget,  then it's fine for that.
+As you can expect this wildly throws your ability to get the output of the child process properly. You will only get the status of the command **at execution** not during any part of the process, or if it runs into an error.
 
 Enjoy :)
 
