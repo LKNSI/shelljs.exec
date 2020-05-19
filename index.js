@@ -10,7 +10,7 @@ const shelljsExec = async (command, options) => {
 
   options = normaliseOptions(options)
 
-  var error, stdout, stderr, code, ok, pid
+  var error, stdout, stderr, code, ok, pid, event
 
   try {
     error = null
