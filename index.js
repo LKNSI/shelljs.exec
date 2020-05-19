@@ -30,6 +30,7 @@ const shelljsExec = async (command, options) => {
     error: error,
     stdout: stdout,
     pid: stdout.pid,
+    event: stdout.on,
     stderr: stderr,
     code: code,
     ok: ok
